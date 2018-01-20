@@ -12,7 +12,7 @@ add_filter('the_content', 'xzh_footer_show_json');
 function xzh_footer_show_json($content) {
     if( !(is_single() || is_page()) ) {
         // 不是文章页，退出
-        return '';
+        return $content;
     }
 
     $config = get_option( 'baidu_xzh_wordpress_plugin' );
