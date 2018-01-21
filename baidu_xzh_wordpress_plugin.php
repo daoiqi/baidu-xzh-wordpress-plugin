@@ -5,7 +5,7 @@ Plugin URI: https://github.com/daoiqi/baidu-xzh-wordpress-plugin
 Description: 百度熊掌号插件，改造页面使用。
 Version: 1.0
 Author: daoiqi
-Author URI: https://github.com/daoiqi/baidu-xzh-wordpress-plugin
+Author URI: https://github.com/daoiqi
 */
 
 add_filter('the_content', 'xzh_footer_show_json');
